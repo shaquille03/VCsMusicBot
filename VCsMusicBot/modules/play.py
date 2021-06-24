@@ -586,8 +586,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                    InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                    InlineKeyboardButton(text="Group", url=f"{@musikalitas}"),
+                    InlineKeyboardButton(text="Channel", url=f"{@dailymood_id}"),
                 ],
                 [
                     InlineKeyboardButton("🔎 Search YouTube 🔍", switch_inline_query_current_chat=""),
