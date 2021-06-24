@@ -586,8 +586,8 @@ async def play(_, message: Message):
                     InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                 ],
                 [
-                    InlineKeyboardButton(text="Group", url=f"{@musikalitas}"),
-                    InlineKeyboardButton(text="Channel", url=f"{@dailymood_id}"),
+                    InlineKeyboardButton(text="Group", url="https://t.me/musikalitas"),
+                    InlineKeyboardButton(text="Channel", url="https://t.me/dailymood_ID"),
                 ],
                 [
                     InlineKeyboardButton("🔎 Search YouTube 🔍", switch_inline_query_current_chat=""),
@@ -675,8 +675,8 @@ async def play(_, message: Message):
                         InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
                     ],
                     [
-                        InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                        InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                        InlineKeyboardButton(text="Group", url="https://t.me/musikalitas"),
+                        InlineKeyboardButton(text="Channel ", url="https://t.me/dailymood_ID"),
                     ],
                     [
                         InlineKeyboardButton("🔎 Search YouTube 🔍", switch_inline_query_current_chat=""),
@@ -826,8 +826,8 @@ async def ytplay(_, message: Message):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="Group", url="https://t.me/musikalitas"),
+                InlineKeyboardButton(text="Channel ", url="https://t.me/dailymood_ID"),
             ],
             [
                 InlineKeyboardButton("🔎 Search YouTube 🔍", switch_inline_query_current_chat=""),
@@ -1109,7 +1109,7 @@ async def jiosaavn(client: Client, message_: Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="Join Updates Channel", url=f"https://t.me/{updateschannel}"
+                    text="Join Group", url=f"https://t.me/musikalitas"
                 )
             ],
             [
@@ -1217,8 +1217,8 @@ async def lol_cb(b, cb):
                 InlineKeyboardButton("Menu ⏯ ", callback_data="menu"),
             ],
             [
-                InlineKeyboardButton(text="🎬 YouTube", url=f"{url}"),
-                InlineKeyboardButton(text="Download 📥", url=f"{dlurl}"),
+                InlineKeyboardButton(text="Group", url="https://t.me/musikalitas"),
+                InlineKeyboardButton(text="Channel", url="https://t.me/dailymood_ID"),
             ],
             [
                 InlineKeyboardButton("🔎 Search YouTube 🔍", switch_inline_query_current_chat=""),
