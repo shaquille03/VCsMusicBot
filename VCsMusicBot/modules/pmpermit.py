@@ -17,7 +17,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Halo, Saya adalah **Layanan Asisten Hiro Musik.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   -Jangan Play Lagu Yang berdurasi Lebih Dari 45 Menit\n\n **Group :** @musikalitas \n\n **Thanks To** @iamhiro\n\n",
+                "Halo, Saya adalah **Layanan Asisten Hiro Musik.**\n\n ❗️ **Rules:**\n   - Jangan Spam Pesan disini\n   - Jangan Spam Lagu Biar Ga Error\n   - Jangan Play Lagu Yang berdurasi Lebih Dari 45 Menit\n\n **Group :** @musikalitas \n\n **Thanks To** @iamhiro\n\n",
             )
             return
 
